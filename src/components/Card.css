@@ -1,0 +1,60 @@
+.card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 20px 5px;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  padding: 0px;
+
+}
+
+.card-title{
+    font-weight: 300;
+    font-size: 30px;
+    bottom: 0;
+    color: gainsboro;
+}
+
+.temp{
+  display: flex;
+  align-items: column;
+  padding: 11px;
+  background-color:white;
+  font-size: 80px;
+  margin-left: 10px;
+}
+
+.icon {
+
+    width: 300px;
+    height: 300px;
+    bottom: 50px;
+    float: right;
+}
+
+.card-footer {
+  margin-top: 255px;
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  border-radius: 8px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.temp-max-min{
+    color: white;
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
